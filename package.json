@@ -1,0 +1,17 @@
+{
+  "name": "bakery-packs",
+  "version": "1.0.0",
+  "description": "A bakery used to base the price of their produce on an individual item cost. So if a customer ordered 10\r cross buns then they would be charged 10x the cost of single bun. The bakery has decided to start\r selling their produce prepackaged in bunches and charging the customer on a per pack basis. So if the\r shop sold vegemite scroll in packs of 3 and 5 and a customer ordered 8 they would get a pack of 3 and\r a pack of 5. The bakery currently sells the following products:",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --opts mocha.opts",
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.0"
+  },
+  "dependencies": {
+    "debug": "^3.1.0"
+  }
+}
